@@ -31,7 +31,7 @@ include frameworks/native/build/tablet-10in-xhdpi-2048-dalvik-heap.mk
 
 PRODUCT_PROPERTY_OVERRIDES += \
     debug.drm.mode.force=640x480 \
-    gralloc.drm.kms=/dev/dri/card0 \
+    gralloc.drm.kms=/dev/dri/card1 \
     ro.opengles.version=131072 \
     debug.sf.nobootanimation=1
 
