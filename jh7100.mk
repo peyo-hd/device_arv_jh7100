@@ -120,3 +120,8 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/languages_full.mk)
 # FIXME libcompiler_rt can't be built automatically on riscv device. manual to build
 PRODUCT_PACKAGES += \
 	libcompiler_rt
+
+# Movidius NN-HAL
+PRODUCT_PACKAGES += \
+    android.hardware.neuralnetworks@1.0-service-vpudriver \
+    MvNCAPI.mvcmd
