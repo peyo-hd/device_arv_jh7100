@@ -125,3 +125,8 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     android.hardware.neuralnetworks@1.0-service-vpudriver \
     MvNCAPI.mvcmd
+
+# NVDLA
+PRODUCT_PACKAGES += \
+    libnvdla_runtime \
+    nvdla_runtime
